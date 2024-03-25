@@ -75,7 +75,6 @@ main article .image{
 }
 
 .content h1, p{
-    margin-bottom: 12px;
     margin-top: 12px;
 }
 
@@ -101,7 +100,7 @@ main article .image{
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  margin-top: -10px;
+  margin-top: -12px;
 }
 
 .author img{

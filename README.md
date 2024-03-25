@@ -10,8 +10,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Acknowledgments](Thankz for this challenger)
 
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/css-flexbox-42iuPsRZiv)
+- Live Site URL: [Live Site](https://blog-preview-card-jorge.netlify.app/)
 
 ## My process
 
