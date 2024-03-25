@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* font family import*/
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  background-color: var(--Yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ## Colors
+
+### Primary */
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  /* ### Neutral */
+  
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+
+
+main{
+    width: 384px;
+    height: 522px;
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 24px;
+    background-color: var(--White);
+    -webkit-box-shadow: 10px 10px 0px 1px rgba(0,0,0,1);
+-moz-box-shadow: 10px 10px 0px 1px rgba(0,0,0,1);
+box-shadow: 10px 10px 0px 1px rgba(0,0,0,1);
+}
+
+
+
+main article .image{
+    background-image: url(/assets/images/illustration-article.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.content{
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.content a button{
+    width: 82px;
+    height: 29px;
+    background-color: var(--Yellow);
+    color: var(--Black);
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.content h1, p{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.content h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.content h1:hover{
+  color: var(--Yellow);
+  cursor: pointer;
+} 
+
+.content p:last-of-type{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Grey);
+    line-height: 24px;
+}
+
+.author{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: -10px;
+}
+
+.author img{
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+}
+
+.author p{
+  color: var(--Black);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+/* FOOTER CSS */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
